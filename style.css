@@ -58,11 +58,11 @@ input {
     box-shadow: rgb(0, 0, 0, 0.3) 1px 4px;
 }
 
-p input:focus-within {
+p input:focus {
     border: 3px solid blue;
 }
 
-p input:placeholder-shown{
+p input:user-invalid {
     border: 2px solid red;
 }
 
