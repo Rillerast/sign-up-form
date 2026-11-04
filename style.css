@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: content-box;
 }
 
@@ -53,15 +54,18 @@ input {
     border-radius: 5px;
     font-size: 1.5rem;
     padding-left: 10px;
+    border: 2px solid gray;
+    box-shadow: rgb(0, 0, 0, 0.3) 1px 4px;
 }
 
-input:valid {
-    border: 1px solid blue;
+p input:focus-within {
+    border: 3px solid blue;
 }
 
-input:invalid {
-    border: 1px solid red;
+p input:placeholder-shown{
+    border: 2px solid red;
 }
+
 
 footer {
     padding: 40px;
