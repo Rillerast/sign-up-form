@@ -5,6 +5,11 @@
     box-sizing: content-box;
 }
 
+@font-face {
+    font-family: norse-bold;
+    src: url(norse_font/Norsebold.otf);
+}
+
 body {
     display: flex;
     min-height: 100vh;
@@ -103,6 +108,7 @@ button {
 }
 
 .logo-container {
+    font-family: norse-bold, sans-serif;
     position: absolute;
     display: flex;
     justify-content: center;
